@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+p:hover {
+    background-color: pink;
+}
+.icon {
+    margin-left: auto;
+}
+div.tooltip {
+    position: fixed;
+    top: 50px;
+    right: 80px;
+    max-width: 200px;
+    display: flex;
+    flex-flow: column;
+}
+div.tooltip-content {
+    display: none;
+}
+.tooltip:hover .tooltip-content{
+    display: block;
+}
